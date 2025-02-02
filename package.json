@@ -1,0 +1,51 @@
+{
+  "name": "graph-visualization",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
+    "@types/react-redux": "^7.1.34",
+    "@xyflow/react": "^12.4.2",
+    "ajv": "^8.0.0",
+    "cra-template-typescript": "1.2.0",
+    "react": "^19.0.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^19.0.0",
+    "react-flow": "^1.0.3",
+    "react-flow-renderer": "^10.3.17",
+    "react-redux": "^9.2.0",
+    "react-scripts": "5.0.1",
+    "reactflow": "^11.11.4",
+    "redux": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.22.0",
+    "install": "^0.13.0",
+    "npm": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
